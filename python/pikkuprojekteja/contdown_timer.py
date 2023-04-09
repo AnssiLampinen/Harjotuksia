@@ -10,7 +10,8 @@ def countdown(t):
     print("Time's up!")
 
 def main():
-    t = input("How many seconds you want to count down from? ")
-    countdown(int(t))
+    while True:
+        t = input("How many seconds you want to count down from? ")
+        countdown(int(t))
 
 main()
